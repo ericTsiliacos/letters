@@ -1,0 +1,23 @@
+<script type="text/javascript">
+
+ function showMenu() {
+	 document.getElementById("more_menu").style.display="block";
+ }
+ 
+ function hideMenu() {
+	 document.getElementById("more_menu").style.display="none";
+ }
+ 
+</script>
+
+<h1>letters unsent.<h1>
+<ul id="navigation">
+	<li id="gallery_link" onmouseover="showMenu()" onmouseout="hideMenu()">gallery
+		<ul id="more_menu" style="display:none">
+			<li>photos</li>
+			<li>text</li>
+		</ul>
+	</li>
+	<li>about</li>
+	<li>contact</li>
+</ul>
